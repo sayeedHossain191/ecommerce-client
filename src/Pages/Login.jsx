@@ -2,8 +2,8 @@ import { useContext } from 'react';
 import { AuthContext } from '../Providers/AuthProvider';
 import { Link, useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
-import { FaTruckMedical } from 'react-icons/fa6';
 import background from '../assets/car5-660x440.jpg.png'
+import { RiSteeringLine } from 'react-icons/ri';
 
 const Login = () => {
 
@@ -54,7 +54,7 @@ const Login = () => {
                 <div className='w-full px-6 py-8 md:px-8 lg:w-1/2'>
                     <div className='flex justify-center mx-auto'>
 
-                        <FaTruckMedical className='w-auto h-8 text-[#0FE3AF]' />
+                        <RiSteeringLine className='w-auto h-8' />
                     </div>
 
                     <p className='mt-3 text-xl text-center text-gray-600 '>
