@@ -1,0 +1,211 @@
+    [
+        {
+            "image": "https://i.ibb.co/Xx4mHVb/ryan-reinoso-h4mnh-CZ5-BE-unsplash.jpg",
+            "name": "Ford Mustang",
+            "category": "Sports",
+            "description": "A classic American muscle car with a powerful engine and sleek design.",
+            "price": 55000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.8,
+            "date": "2021-08-22"
+        },
+        {
+            "image": "https://i.ibb.co/KGgSWQ6/nam-cz-Q-S3r-OCJX94-unsplash.jpg",
+            "name": "Toyota Camry",
+            "category": "Sedan",
+            "description": "A reliable and fuel-efficient sedan with a comfortable interior.",
+            "price": 25000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.5,
+            "date": "2021-01-13"
+        },
+        {
+            "image": "https://i.ibb.co/4NnjMSn/screen-post-3co0fh-SLk6-M-unsplash.jpg",
+            "name": "Honda Civic",
+            "category": "Sedan",
+            "description": "A versatile and economical compact car with modern features.",
+            "price": 23000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Manual",
+            "rating": 4.6,
+            "date": "2024-08-16"
+        },
+        {
+            "image": "https://i.ibb.co/5sNvGDH/jp-valery-ggv-WKq4fsv-I-unsplash.jpg",
+            "name": "Chevrolet Camaro",
+            "category": "SUV",
+            "description": "A spacious SUV with advanced safety features and a powerful engine.",
+            "price": 65000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.7,
+            "date": "2024-10-17"
+        },
+        {
+            "image": "https://i.ibb.co/ZTWvjmB/jp-valery-Qm-n6ao-Yz-Ds-unsplash.jpg",
+            "name": "Tesla Model S",
+            "category": "Electric",
+            "description": "A high-performance electric sedan with cutting-edge technology.",
+            "price": 80000,
+            "fuel_type": "Electric",
+            "transmission_type": "Automatic",
+            "rating": 4.9,
+            "date": "2024-11-16"
+        },
+        {
+            "image": "https://i.ibb.co/7CQ1Kpb/daniel-gutko-t-Sh-F65-Ifz-Hg-unsplash.jpg",
+            "name": "BMW X5",
+            "category": "SUV",
+            "description": "A luxury SUV with a refined interior and excellent driving dynamics.",
+            "price": 70000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.6,
+            "date": "2022-12-16"
+        },
+        {
+            "image": "https://i.ibb.co/cwN03k0/bodi-raw-p-Qy-Xoui3-Wiw-unsplash.jpg",
+            "name": "Audi A4",
+            "category": "Sedan",
+            "description": "A sophisticated sedan with advanced tech and a smooth ride.",
+            "price": 35000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.7,
+            "date": "2021-01-11"
+        },
+        {
+            "image": "https://i.ibb.co/vqV03FD/alee-megdad-t-AUx-If-CQnm-I-unsplash.jpg",
+            "name": "Subaru BRZ",
+            "category": "Coupe",
+            "description": "A rugged wagon with all-wheel drive and ample cargo space.",
+            "price": 30000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.5,
+            "date": "2024-02-13"
+        },
+        {
+            "image": "https://i.ibb.co/HgcpLwM/petko-boiadjiev-Gjhd1ou3-Vh-U-unsplash.jpg",
+            "name": "Nissan Patrol",
+            "category": "Electric",
+            "description": "An affordable electric car with a practical range and modern features.",
+            "price": 32000,
+            "fuel_type": "Electric",
+            "transmission_type": "Automatic",
+            "rating": 4.4,
+            "date": "2024-03-14"
+        },
+        {
+            "image": "https://i.ibb.co/zhrs0wg/franco-debartolo-6d-NKmejnhvo-unsplash.jpg",
+            "name": "Jeep Wrangler",
+            "category": "SUV",
+            "description": "An iconic off-road vehicle with exceptional durability and capability.",
+            "price": 40000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Manual",
+            "rating": 4.7,
+            "date": "2024-04-19"
+        },
+        {
+            "image": "https://i.ibb.co/JzytbDF/05-flims-PWa-Bn557zz-E-unsplash.jpg",
+            "name": "Hyundai Elentra",
+            "category": "Sedan",
+            "description": "A stylish sedan with a spacious interior and high-tech features.",
+            "price": 27000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.6,
+            "date": "2021-09-11"
+        },
+        {
+            "image": "https://i.ibb.co/CzWszPz/hyundai-motor-group-MTZ-S1-Xo-JVQ-unsplash.jpg",
+            "name": "Kia Seltos",
+            "category": "SUV",
+            "description": "A well-rounded SUV with a comfortable ride and family-friendly features.",
+            "price": 35000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.5,
+            "date": "2024-05-17"
+        },
+        {
+            "image": "https://i.ibb.co/gmSFWJH/emanuel-turbuc-z-HPq-Ioxgv-U0-unsplash.jpg",
+            "name": "Mercedes-Benz C-Class",
+            "category": "Sedan",
+            "description": "A luxury sedan with a refined interior and advanced technology.",
+            "price": 42000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.8,
+            "date": "2023-02-10"
+        },
+        {
+            "image": "https://i.ibb.co/VVpKtHj/omer-haktan-bulut-Akq-Bw-Ccm-Lf-E-unsplash.jpg",
+            "name": "Mazda MX-5 Miata",
+            "category": "Sports",
+            "description": "A fun-to-drive sports car with a lightweight design and agile handling.",
+            "price": 30000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Manual",
+            "rating": 4.9,
+            "date": "2024-06-15"
+        },
+        {
+            "image": "https://i.ibb.co/D1FxhnW/jack-lucas-smith-bvx-HI7r-TKbo-unsplash.jpg",
+            "name": "Land Rover Range Rover",
+            "category": "SUV",
+            "description": "A luxurious SUV with off-road capability and a premium interior.",
+            "price": 90000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.7,
+            "date": "2020-01-12"
+        },
+        {
+            "image": "https://i.ibb.co/PZ5Ps9k/bradikan-r76qr-Rdi8-Bs-unsplash.jpg",
+            "name": "Porsche 911",
+            "category": "Sports",
+            "description": "A high-performance sports car with iconic styling and exhilarating driving dynamics.",
+            "price": 100000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.9,
+            "date": "2024-01-10"
+        },
+        {
+            "image": "https://i.ibb.co/cNgPQQj/luke-scarpino-sd7w-QZ0-Is-UY-unsplash.jpg",
+            "name": "Ford Raptor",
+            "category": "SUV",
+            "description": "A family-friendly SUV with plenty of space and modern features.",
+            "price": 35000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.5,
+            "date": "2022-08-26"
+        },
+        {
+            "image": "https://i.ibb.co/1swVLmX/calitore-COYj-Mnr-XHKM-unsplash.jpg",
+            "name": "Volvo XC90",
+            "category": "SUV",
+            "description": "A sophisticated SUV with advanced safety features and a luxurious cabin.",
+            "price": 75000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.8,
+            "date": "2014-08-26"
+        },
+        {
+            "image": "https://i.ibb.co/6RgXN6s/tom-strecker-Yvey-TDT-m28-unsplash.jpg",
+            "name": "Honda NSX",
+            "category": "Sports",
+            "description": "A premium car with a spacious interior and strong performance.",
+            "price": 92000,
+            "fuel_type": "Gasoline",
+            "transmission_type": "Automatic",
+            "rating": 4.8,
+            "date": "2023-08-11"
+        }
+    ]
