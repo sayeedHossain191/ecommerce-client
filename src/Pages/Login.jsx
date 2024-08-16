@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { AuthContext } from '../Providers/AuthProvider';
 import { Link, useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
-import background from '../assets/car5-660x440.jpg.png'
+import background from '../assets/olav-tvedt--oVaYMgBMbs-unsplash.jpg'
 import { RiSteeringLine } from 'react-icons/ri';
 
 const Login = () => {

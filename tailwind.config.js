@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      dm: "'DM Sans', sans-serif",
+      courier: "'Courier Prime', monospace",
+    },
     extend: {},
   },
   plugins: [

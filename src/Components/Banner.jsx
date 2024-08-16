@@ -1,17 +1,19 @@
-import React from 'react';
+import bg1 from '../assets/rs-sbg-px → rs-sbg-wrap → rs-sbg → image.png'
 
 const Banner = () => {
     return (
         <div>
-            <section className="bg-white dark:bg-gray-900">
-
+            <section className="bg-white dark:bg-gray-900 hero min-h-screen mt-10 font-dm" style={{
+                backgroundImage: `url(${bg1})`,
+            }}>
 
                 <div className="container px-6 py-16 mx-auto text-center">
-                    <div className="max-w-lg mx-auto">
-                        <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">Create beautiful website layout with Meraki UI.</h1>
+                    <div className="max-w-xl mx-auto">
+                        <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-5xl">Find Your Perfect Vehicle</h1>
 
-                        <p className="mt-6 text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero similique obcaecati illum mollitia.
+                        <p className="mt-6 text-white">
+                            We are committed to providing our customers with exceptional service, competitive
+                            pricing, and a wide range of..
                         </p>
 
                         <div className="w-full max-w-sm mx-auto mt-6 bg-transparent border rounded-md dark:border-gray-700 focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 dark:focus-within:border-blue-300 focus-within:ring-opacity-40">
@@ -25,22 +27,22 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div className="max-w-screen-xl mx-auto mt-20">
+                    <div className="max-w-screen-xl mx-auto mt-20 font-dm font-semibold">
                         <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
                             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                                <div className="badge badge-outline">Sedan</div>
+                                <div className="badge badge-outline bg-white text-black">Sedan</div>
                             </div>
                             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                                <div className="badge badge-outline">SUV</div>
+                                <div className="badge badge-outline bg-white text-black">SUV</div>
                             </div>
                             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                                <div className="badge badge-outline">Hybrid</div>
+                                <div className="badge badge-outline bg-white text-black">Hybrid</div>
                             </div>
                             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                                <div className="badge badge-outline">Hatchback</div>
+                                <div className="badge badge-outline bg-white text-black">Hatchback</div>
                             </div>
                             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                                <div className="badge badge-outline">Coupe</div>
+                                <div className="badge badge-outline bg-white text-black">Coupe</div>
                             </div>
 
 

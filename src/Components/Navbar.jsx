@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../Providers/AuthProvider';
 import { useContext } from 'react';
+import { RiSteeringLine } from 'react-icons/ri';
 
 const Navbar = () => {
 
@@ -14,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 font-dm">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,7 +47,14 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <div className='flex-1'>
+                        <Link to='/' className='flex gap-2 items-center'>
+                            <img className='w-auto h-7' src='' alt='' />
+                            <RiSteeringLine className='w-auto h-7' />
+                            <span className='font-bold text-lg'>OverDrive</span>
+                        </Link>
+                    </div>
+
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -67,7 +75,7 @@ const Navbar = () => {
                         user?.uid ?
                             <>
                                 <span className=""><img src={user?.photoURL} title={user?.displayName} className=" ml-5 h-10 rounded-full" alt="" /></span>
-                                <button onClick={handleLogOut} className="btn btn-ghost normal-case text-lg">Log Out</button>
+                                <button onClick={handleLogOut} className="btn btn-ghost normal-case text-lg">Logout</button>
                             </>
                             :
                             <>
