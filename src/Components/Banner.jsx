@@ -1,6 +1,29 @@
+import { useContext, useEffect, useState } from 'react';
 import bg1 from '../assets/rs-sbg-px → rs-sbg-wrap → rs-sbg → image.png'
+import { GlobalStateContext } from '../Providers/GlobalStateProvider';
 
 const Banner = () => {
+
+    const [search, setSearch] = useState('')
+
+    const { getProducts } = useContext(GlobalStateContext)
+
+    useEffect(() => {
+
+        if (search) {
+            getProducts(search, null);
+        } else {
+            getProducts('', '')
+        }
+    }, [getProducts, search])
+
+    const handleSearch = (e) => {
+        e.preventDefault();
+        const searchText = e.target.search.value;
+        console.log(searchText)
+        setSearch(searchText)
+    }
+
     return (
         <div>
             <section className="bg-white dark:bg-gray-900 hero min-h-screen mt-10 font-dm" style={{
@@ -17,18 +40,19 @@ const Banner = () => {
                         </p>
 
                         <div className="w-full max-w-sm mx-auto mt-6 bg-transparent border rounded-md dark:border-gray-700 focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 dark:focus-within:border-blue-300 focus-within:ring-opacity-40">
-                            <form className="flex flex-col md:flex-row">
-                                <input type="email" placeholder="Enter your email address" className="flex-1 h-10 px-4 py-2 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" />
 
-                                <button type="button" className="h-10 px-4 py-2 m-1 text-white transition-colors duration-300 transform bg-blue-500 rounded-full hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
-                                    Join Us
+                            <form onSubmit={handleSearch} className="flex flex-col md:flex-row">
+                                <input type="text" name="search" placeholder="Search your product" className="flex-1 h-10 px-4 py-2 m-1 text-gray-700 placeholder-white bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" />
+
+                                <button type="submit" className="h-10 px-4 py-2 m-1 text-white transition-colors duration-300 transform bg-blue-500 rounded-full hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
+                                    Search
                                 </button>
                             </form>
                         </div>
                     </div>
 
                     <div className="max-w-screen-xl mx-auto mt-20 font-dm font-semibold">
-                        <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+                        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
                             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
                                 <div className="badge badge-outline bg-white text-black">Sedan</div>
                             </div>
@@ -42,7 +66,10 @@ const Banner = () => {
                                 <div className="badge badge-outline bg-white text-black">Hatchback</div>
                             </div>
                             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                                <div className="badge badge-outline bg-white text-black">Coupe</div>
+                                <div className="badge badge-outline bg-white text-black">Sports</div>
+                            </div>
+                            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+                                <div className="badge badge-outline bg-white text-black">Electric</div>
                             </div>
 
 

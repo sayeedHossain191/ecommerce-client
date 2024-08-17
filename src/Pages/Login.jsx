@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import background from '../assets/olav-tvedt--oVaYMgBMbs-unsplash.jpg'
 import { RiSteeringLine } from 'react-icons/ri';
+import logo from '../assets/Over__1_-removebg-preview.png'
 
 const Login = () => {
 
@@ -42,7 +43,7 @@ const Login = () => {
     }
 
     return (
-        <div>
+        <div className='my-20'>
             <div className='flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg  lg:max-w-4xl '>
                 <div
                     className='hidden bg-cover bg-center lg:block lg:w-1/2'
@@ -53,8 +54,8 @@ const Login = () => {
 
                 <div className='w-full px-6 py-8 md:px-8 lg:w-1/2'>
                     <div className='flex justify-center mx-auto'>
-
-                        <RiSteeringLine className='w-auto h-8' />
+                        <img className='w-8' src={logo} alt="" />
+                        {/* <RiSteeringLine className='w-auto h-8' /> */}
                     </div>
 
                     <p className='mt-3 text-xl text-center text-gray-600 '>

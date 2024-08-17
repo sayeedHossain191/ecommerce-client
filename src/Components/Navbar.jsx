@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../Providers/AuthProvider';
 import { useContext } from 'react';
 import { RiSteeringLine } from 'react-icons/ri';
+import logo from '../assets/Over__1_-removebg-preview.png'
 
 const Navbar = () => {
 
@@ -49,8 +50,8 @@ const Navbar = () => {
                     </div>
                     <div className='flex-1'>
                         <Link to='/' className='flex gap-2 items-center'>
-                            <img className='w-auto h-7' src='' alt='' />
-                            <RiSteeringLine className='w-auto h-7' />
+                            <img className='w-auto h-7' src={logo} alt='' />
+                            {/* <RiSteeringLine className='w-auto h-7' /> */}
                             <span className='font-bold text-lg'>OverDrive</span>
                         </Link>
                     </div>

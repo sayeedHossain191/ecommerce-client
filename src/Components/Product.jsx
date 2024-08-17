@@ -1,30 +1,33 @@
 import { BsFillFuelPumpFill } from 'react-icons/bs';
-import img1 from '../assets/car5-660x440.jpg.png'
 import { LuGaugeCircle } from 'react-icons/lu';
 import { GiGearStickPattern } from 'react-icons/gi';
 import { MdOutlineStarRate } from 'react-icons/md';
 import { FaRegCalendarTimes } from 'react-icons/fa';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import axios from 'axios';
+import { GlobalStateContext } from '../Providers/GlobalStateProvider';
 
 const Product = () => {
 
-
+    const [dsc, setDsc] = useState(true)
     const [productPerPage, setProductPerPage] = useState(3)
     const [currentPage, setCurrentPage] = useState(1)
     const [count, setCount] = useState(0)
     const [products, setProducts] = useState([])
-
+    const { getProducts } = useContext(GlobalStateContext)
     //const { count } = useLoaderData();
 
     const numberOfPages = Math.ceil(count / productPerPage)
     const pages = [...Array(numberOfPages).keys()].map(element => element + 1);
 
+    useEffect(() => {
+        getProducts(null, dsc ? 'dsc' : 'asc')
+    }, [dsc])
 
     useEffect(() => {
         const getService = async () => {
 
-            const { data } = await axios(`http://localhost:5000/products?page=${currentPage}&size=${productPerPage}`)
+            const { data } = await axios(`http://localhost:5000/all-products?page=${currentPage}&size=${productPerPage}`)
 
             setProducts(data)
         }
@@ -36,7 +39,7 @@ const Product = () => {
     useEffect(() => {
         const getCount = async () => {
 
-            const { data } = await axios(`https://b9a11-consultation-server.vercel.app/service-count`)
+            const { data } = await axios(`http://localhost:5000/product-count`)
 
             setCount(data.count)
         }
@@ -65,6 +68,10 @@ const Product = () => {
 
     return (
         <div>
+            <button onClick={() => setDsc(!dsc)} className="btn btn-primary font-poppins my-20 w-full">
+                {dsc ? 'Post: Low to High' : 'Post: High to Low'}
+            </button>
+
             <div className='m-20 grid lg:grid-cols-3 md:grid-cols-2 gap-10 font-dm'>
                 {
                     products.map(product => <div key={product._id} className="card border border-white w-96 shadow-xl">
@@ -89,7 +96,7 @@ const Product = () => {
                                 </div>
                                 <div className=''>
                                     <LuGaugeCircle />
-                                    <h2>20 Miles</h2>
+                                    <h2>{product.average_mileage} Miles</h2>
                                 </div>
                                 <div className=''>
                                     <GiGearStickPattern />
@@ -108,12 +115,19 @@ const Product = () => {
                         </div>
                     </div>)
                 }
-
             </div>
+
+            {/* Pagination */}
             <div className='mx-auto'>
                 <div className="join flex justify-center mb-20">
-                    <button className="join-item btn btn-outline">Previous page</button>
-                    <button className="join-item btn btn-outline">Next</button>
+                    <button disabled={currentPage === 1} onClick={handlePrevPage} className="join-item btn btn-outline">Previous page</button>
+
+                    {
+                        pages.map(page => <button onClick={() => handlePagination(page)}
+                            key={page} className={`${currentPage === page ? 'bg-[#0152A8]' : ''} join-item btn btn-outline`}>{page}</button>)
+                    }
+
+                    <button disabled={currentPage === numberOfPages} onClick={handleNextPage} className="join-item btn btn-outline">Next</button>
                 </div>
             </div>
         </div>

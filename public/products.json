@@ -8,7 +8,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.8,
-            "date": "2021-08-22"
+            "date": "2021-08-22",
+            "average_mileage": 27
         },
         {
             "image": "https://i.ibb.co/KGgSWQ6/nam-cz-Q-S3r-OCJX94-unsplash.jpg",
@@ -19,7 +20,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.5,
-            "date": "2021-01-13"
+            "date": "2021-01-13",
+            "average_mileage": 21
         },
         {
             "image": "https://i.ibb.co/4NnjMSn/screen-post-3co0fh-SLk6-M-unsplash.jpg",
@@ -30,18 +32,20 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Manual",
             "rating": 4.6,
-            "date": "2024-08-16"
+            "date": "2024-08-16",
+            "average_mileage": 15
         },
         {
             "image": "https://i.ibb.co/5sNvGDH/jp-valery-ggv-WKq4fsv-I-unsplash.jpg",
             "name": "Chevrolet Camaro",
-            "category": "SUV",
+            "category": "Sports",
             "description": "A spacious SUV with advanced safety features and a powerful engine.",
             "price": 65000,
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.7,
-            "date": "2024-10-17"
+            "date": "2024-10-17",
+            "average_mileage": 21
         },
         {
             "image": "https://i.ibb.co/ZTWvjmB/jp-valery-Qm-n6ao-Yz-Ds-unsplash.jpg",
@@ -52,7 +56,8 @@
             "fuel_type": "Electric",
             "transmission_type": "Automatic",
             "rating": 4.9,
-            "date": "2024-11-16"
+            "date": "2024-11-16",
+            "average_mileage": 26
         },
         {
             "image": "https://i.ibb.co/7CQ1Kpb/daniel-gutko-t-Sh-F65-Ifz-Hg-unsplash.jpg",
@@ -63,7 +68,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.6,
-            "date": "2022-12-16"
+            "date": "2022-12-16",
+            "average_mileage": 28
         },
         {
             "image": "https://i.ibb.co/cwN03k0/bodi-raw-p-Qy-Xoui3-Wiw-unsplash.jpg",
@@ -74,18 +80,20 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.7,
-            "date": "2021-01-11"
+            "date": "2021-01-11",
+            "average_mileage": 17
         },
         {
             "image": "https://i.ibb.co/vqV03FD/alee-megdad-t-AUx-If-CQnm-I-unsplash.jpg",
             "name": "Subaru BRZ",
-            "category": "Coupe",
+            "category": "Sports",
             "description": "A rugged wagon with all-wheel drive and ample cargo space.",
             "price": 30000,
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.5,
-            "date": "2024-02-13"
+            "date": "2024-02-13",
+            "average_mileage": 12
         },
         {
             "image": "https://i.ibb.co/HgcpLwM/petko-boiadjiev-Gjhd1ou3-Vh-U-unsplash.jpg",
@@ -96,7 +104,8 @@
             "fuel_type": "Electric",
             "transmission_type": "Automatic",
             "rating": 4.4,
-            "date": "2024-03-14"
+            "date": "2024-03-14",
+            "average_mileage": 35
         },
         {
             "image": "https://i.ibb.co/zhrs0wg/franco-debartolo-6d-NKmejnhvo-unsplash.jpg",
@@ -107,7 +116,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Manual",
             "rating": 4.7,
-            "date": "2024-04-19"
+            "date": "2024-04-19",
+            "average_mileage": 28
         },
         {
             "image": "https://i.ibb.co/JzytbDF/05-flims-PWa-Bn557zz-E-unsplash.jpg",
@@ -118,7 +128,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.6,
-            "date": "2021-09-11"
+            "date": "2021-09-11",
+            "average_mileage": 10
         },
         {
             "image": "https://i.ibb.co/CzWszPz/hyundai-motor-group-MTZ-S1-Xo-JVQ-unsplash.jpg",
@@ -129,7 +140,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.5,
-            "date": "2024-05-17"
+            "date": "2024-05-17",
+            "average_mileage": 14
         },
         {
             "image": "https://i.ibb.co/gmSFWJH/emanuel-turbuc-z-HPq-Ioxgv-U0-unsplash.jpg",
@@ -140,7 +152,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.8,
-            "date": "2023-02-10"
+            "date": "2023-02-10",
+            "average_mileage": 30
         },
         {
             "image": "https://i.ibb.co/VVpKtHj/omer-haktan-bulut-Akq-Bw-Ccm-Lf-E-unsplash.jpg",
@@ -151,7 +164,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Manual",
             "rating": 4.9,
-            "date": "2024-06-15"
+            "date": "2024-06-15",
+            "average_mileage": 14
         },
         {
             "image": "https://i.ibb.co/D1FxhnW/jack-lucas-smith-bvx-HI7r-TKbo-unsplash.jpg",
@@ -162,7 +176,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.7,
-            "date": "2020-01-12"
+            "date": "2020-01-12",
+            "average_mileage": 24
         },
         {
             "image": "https://i.ibb.co/PZ5Ps9k/bradikan-r76qr-Rdi8-Bs-unsplash.jpg",
@@ -173,7 +188,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.9,
-            "date": "2024-01-10"
+            "date": "2024-01-10",
+            "average_mileage": 17
         },
         {
             "image": "https://i.ibb.co/cNgPQQj/luke-scarpino-sd7w-QZ0-Is-UY-unsplash.jpg",
@@ -184,7 +200,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.5,
-            "date": "2022-08-26"
+            "date": "2022-08-26",
+            "average_mileage": 23
         },
         {
             "image": "https://i.ibb.co/1swVLmX/calitore-COYj-Mnr-XHKM-unsplash.jpg",
@@ -195,7 +212,8 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.8,
-            "date": "2014-08-26"
+            "date": "2014-08-26",
+            "average_mileage": 32
         },
         {
             "image": "https://i.ibb.co/6RgXN6s/tom-strecker-Yvey-TDT-m28-unsplash.jpg",
@@ -206,6 +224,259 @@
             "fuel_type": "Gasoline",
             "transmission_type": "Automatic",
             "rating": 4.8,
-            "date": "2023-08-11"
+            "date": "2023-08-11",
+            "average_mileage": 12
+        },
+        {
+            "image": "https://i.ibb.co/z5FwDqG/tim-vegas-r3c-A8-C6a-UA-unsplash.jpg",
+            "name": "Toyota Land Cruiser",
+            "category": "SUV",
+            "description": "A spacious and powerful SUV with top-of-the-line features.",
+            "price": 35000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Automatic",
+            "rating": 4.7,
+            "date": "2024-07-01",
+            "average_mileage": 25
+        },
+        {
+            "image": "https://i.ibb.co/87Ppmjs/aaron-huber-GRQIy9onn-C8-unsplash.jpg",
+            "name": "Audi R8",
+            "category": "Sports",
+            "description": "A high-performance sports car designed for speed and agility.",
+            "price": 55000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Manual",
+            "rating": 4.9,
+            "date": "2024-07-05",
+            "average_mileage": 18
+        },
+        {
+            "image": "https://i.ibb.co/qs1YnYm/bornil-amin-RAZab-nt2-AQ-unsplash.jpg",
+            "name": "Toyota Premio",
+            "category": "Sedan",
+            "description": "An eco-friendly sedan with impressive fuel efficiency.",
+            "price": 30000,
+            "fuel_type": "Hybrid",
+            "transmission_type": "Automatic",
+            "rating": 4.5,
+            "date": "2024-07-10",
+            "average_mileage": 40
+        },
+        {
+            "image": "https://i.ibb.co/XLmfS9d/eyosias-g-F0-UCH1v-NKHU-unsplash.jpg",
+            "name": "Land Rover Defender",
+            "category": "SUV",
+            "description": "A durable truck built for tough jobs and rough terrain.",
+            "price": 40000,
+            "fuel_type": "Diesel",
+            "transmission_type": "Automatic",
+            "rating": 4.3,
+            "date": "2024-07-15",
+            "average_mileage": 22
+        },
+        {
+            "image": "https://i.ibb.co/z2swxLD/robert-schwarz-STK-MZ2dvw-Y-unsplash.jpg",
+            "name": "Mini Cooper",
+            "category": "Hatchback",
+            "description": "A compact and stylish hatchback ideal for city driving.",
+            "price": 22000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Manual",
+            "rating": 4.4,
+            "date": "2024-07-20",
+            "average_mileage": 30
+        },
+        {
+            "image": "https://i.ibb.co/W5dP8Bk/nam-cz-y-ANjm9-Bg4-NI-unsplash.jpg",
+            "name": "Lexus ES 300h",
+            "category": "Sedan",
+            "description": "A luxury vehicle that combines elegance with cutting-edge technology.",
+            "price": 70000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Automatic",
+            "rating": 4.8,
+            "date": "2024-07-25",
+            "average_mileage": 20
+        },
+        {
+            "image": "https://i.ibb.co/xhhzJHP/badar-ul-islam-majid-v-UOp-El-Tmh6k-unsplash.jpg",
+            "name": "Hyundai tucson",
+            "category": "SUV",
+            "description": "A compact SUV with ample space and comfort for the whole family.",
+            "price": 32000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Automatic",
+            "rating": 4.6,
+            "date": "2024-08-01",
+            "average_mileage": 28
+        },
+        {
+            "image": "https://i.ibb.co/n04tMdk/gonzalo-pedroviejo-gomez-b1-Uxgf2-IBQY-unsplash.jpg",
+            "name": "BMW M4",
+            "category": "Sedan",
+            "description": "An efficient sedan perfect for daily commuting and city life.",
+            "price": 27000,
+            "fuel_type": "Hybrid",
+            "transmission_type": "Automatic",
+            "rating": 4.4,
+            "date": "2024-08-05",
+            "average_mileage": 35
+        },
+        {
+            "image": "https://i.ibb.co/LnMQtdP/gino-marcelo-hernandez-sanchez-PMNMWIYIF0-unsplash.jpg",
+            "name": "Toyota RAV4",
+            "category": "SUV",
+            "description": "An SUV with exceptional off-road capabilities for adventurous drives.",
+            "price": 40000,
+            "fuel_type": "Diesel",
+            "transmission_type": "Automatic",
+            "rating": 4.6,
+            "date": "2024-08-10",
+            "average_mileage": 24
+        },
+        {
+            "image": "https://i.ibb.co/zNpZ5w0/abdullah-malik-LQ-Wlcdnpbs-unsplash.jpg",
+            "name": "Toyota Supra",
+            "category": "Sports",
+            "description": "A sleek sports car with unmatched speed and handling.",
+            "price": 60000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Manual",
+            "rating": 4.8,
+            "date": "2024-08-15",
+            "average_mileage": 20
+        },
+        {
+            "image": "https://i.ibb.co/CzhNFN1/hyundai-motor-group-t-AE6clao-Wd-M-unsplash.jpg",
+            "name": "Hyundai i20",
+            "category": "Hatchback",
+            "description": "A small hatchback that's perfect for eco-conscious drivers.",
+            "price": 25000,
+            "fuel_type": "Hybrid",
+            "transmission_type": "Automatic",
+            "rating": 4.5,
+            "date": "2024-08-20",
+            "average_mileage": 38
+        },
+        {
+            "image": "https://i.ibb.co/MsmvwZY/ryan-Du-IJri27-Xu-Q-unsplash.jpg",
+            "name": "Honda Civic type R",
+            "category": "Hatchback",
+            "description": "A reliable truck designed for heavy-duty tasks and long hauls.",
+            "price": 45000,
+            "fuel_type": "Diesel",
+            "transmission_type": "Automatic",
+            "rating": 4.4,
+            "date": "2024-08-25",
+            "average_mileage": 21
+        },
+        {
+            "image": "https://i.ibb.co/tY21HyJ/bodi-raw-p-Qy-Xoui3-Wiw-unsplash-1.jpg",
+            "name": "Audi A7",
+            "category": "Sedan",
+            "description": "A high-end sedan offering top-tier comfort and technology.",
+            "price": 65000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Automatic",
+            "rating": 4.7,
+            "date": "2024-09-01",
+            "average_mileage": 22
+        },
+        {
+            "image": "https://i.ibb.co/qxRHtNW/hyundai-motor-group-8kcsg-LDAETg-unsplash.jpg",
+            "name": "Hyundai Palisade",
+            "category": "SUV",
+            "description": "An adventurous SUV built for both city streets and rugged trails.",
+            "price": 37000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Automatic",
+            "rating": 4.5,
+            "date": "2024-09-05",
+            "average_mileage": 23
+        },
+        {
+            "image": "https://i.ibb.co/Nr3ybFx/shashwat-narkhede-2ey-Kjc-GLnb-I-unsplash.jpg",
+            "name": "BMW 7 Series",
+            "category": "Sedan",
+            "description": "A luxurious sedan with sophisticated design and performance.",
+            "price": 34000,
+            "fuel_type": "Hybrid",
+            "transmission_type": "Automatic",
+            "rating": 4.6,
+            "date": "2024-09-10",
+            "average_mileage": 30
+        },
+        {
+            "image": "https://i.ibb.co/p3nWyCC/matthew-valentino-v-H1-TXgq-KT8-E-unsplash.jpg",
+            "name": "BMW M3",
+            "category": "Hatchback",
+            "description": "A stylish hatchback that's perfect for urban environments.",
+            "price": 24000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Manual",
+            "rating": 4.3,
+            "date": "2024-09-15",
+            "average_mileage": 32
+        },
+        {
+            "image": "https://i.ibb.co/xSBvg17/serhii-kisil-1q5fi6-Tieqg-unsplash.jpg",
+            "name": "Audi Q3",
+            "category": "Hybrid",
+            "description": "A grand luxury car designed for comfort and high performance.",
+            "price": 80000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Automatic",
+            "rating": 4.9,
+            "date": "2024-09-20",
+            "average_mileage": 18
+        },
+        {
+            "image": "https://i.ibb.co/19RjR0h/alexandr-bendus-1-Mha1-F-v-PQ-unsplash.jpg",
+            "name": "BMW X3",
+            "category": "Hybrid",
+            "description": "A versatile minivan with ample room and family-friendly features.",
+            "price": 31000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Automatic",
+            "rating": 4.5,
+            "date": "2024-09-25",
+            "average_mileage": 27
+        },
+        {
+            "image": "https://i.ibb.co/0fvZ2P5/qijin-xu-JUkd-Ni-G9w3-I-unsplash.jpg",
+            "name": "Toyota GR86",
+            "category": "Sports",
+            "description": "A sporty coupe with dynamic handling and a sleek design.",
+            "price": 57000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Manual",
+            "rating": 4.8,
+            "date": "2024-05-09",
+            "average_mileage": 20
+        },
+        {
+            "image": "https://i.ibb.co/qJfgWzr/hyundai-motor-group-p-M6i-E89q6-Q0-unsplash.jpg",
+            "name": "Jeep Wagoneer",
+            "category": "SUV",
+            "description": "A sporty coupe with dynamic handling and a sleek design.",
+            "price": 35000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Manual",
+            "rating": 4.0,
+            "date": "2024-12-01",
+            "average_mileage": 24
+        },
+        {
+            "image": "https://i.ibb.co/hcKH69B/remy-lovesy-FL8xxr-Nr-C0-A-unsplash.jpg",
+            "name": "Audi e tron GT",
+            "category": "Electric",
+            "description": "A sporty car with dynamic handling and a sleek design.",
+            "price": 89000,
+            "fuel_type": "Petrol",
+            "transmission_type": "Manual",
+            "rating": 4.7,
+            "date": "2022-12-21",
+            "average_mileage": 27
         }
     ]

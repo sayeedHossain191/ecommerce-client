@@ -1,4 +1,5 @@
 import Banner from '../Components/Banner';
+import PopularBrand from '../Components/PopularBrand';
 import Product from '../Components/Product';
 
 const Home = () => {
@@ -6,7 +7,9 @@ const Home = () => {
         <div>
             {/* <Navbar /> */}
             <Banner />
+            <PopularBrand />
             <Product />
+
             {/* <Footer /> */}
         </div>
     );
