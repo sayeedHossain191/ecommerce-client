@@ -15,7 +15,7 @@ const Product = () => {
     const [count, setCount] = useState(0)
     const [products, setProducts] = useState([])
     const { getProducts } = useContext(GlobalStateContext)
-    //const { count } = useLoaderData();
+
 
     const numberOfPages = Math.ceil(count / productPerPage)
     const pages = [...Array(numberOfPages).keys()].map(element => element + 1);
@@ -25,13 +25,13 @@ const Product = () => {
     }, [dsc])
 
     useEffect(() => {
-        const getService = async () => {
+        const getProduct = async () => {
 
             const { data } = await axios(`http://localhost:5000/all-products?page=${currentPage}&size=${productPerPage}`)
 
             setProducts(data)
         }
-        getService()
+        getProduct()
 
     }, [currentPage, productPerPage])
 
@@ -69,7 +69,7 @@ const Product = () => {
     return (
         <div>
             <button onClick={() => setDsc(!dsc)} className="btn btn-primary font-poppins my-20 w-full">
-                {dsc ? 'Post: Low to High' : 'Post: High to Low'}
+                {dsc ? 'Price: Low to High' : 'Price: High to Low'}
             </button>
 
             <div className='m-20 grid lg:grid-cols-3 md:grid-cols-2 gap-10 font-dm'>

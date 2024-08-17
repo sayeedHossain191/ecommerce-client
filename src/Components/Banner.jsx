@@ -15,7 +15,7 @@ const Banner = () => {
         } else {
             getProducts('', '')
         }
-    }, [getProducts, search])
+    }, [search, getProducts])
 
     const handleSearch = (e) => {
         e.preventDefault();
