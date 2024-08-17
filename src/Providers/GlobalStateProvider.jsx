@@ -10,7 +10,7 @@ const GlobalStateProvider = ({ children }) => {
     //get products
     const getProducts = async (searchText, sort) => {
 
-        let url = `http://localhost:5000/products`;
+        let url = `https://ecommerce-server-rust.vercel.app//products`;
         if (searchText && sort) {
             url += `?search=${searchText}&sort=${sort}`;
         }

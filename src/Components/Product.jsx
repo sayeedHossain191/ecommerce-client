@@ -27,7 +27,7 @@ const Product = () => {
     useEffect(() => {
         const getProduct = async () => {
 
-            const { data } = await axios(`http://localhost:5000/all-products?page=${currentPage}&size=${productPerPage}`)
+            const { data } = await axios(`https://ecommerce-server-rust.vercel.app//all-products?page=${currentPage}&size=${productPerPage}`)
 
             setProducts(data)
         }
@@ -39,7 +39,7 @@ const Product = () => {
     useEffect(() => {
         const getCount = async () => {
 
-            const { data } = await axios(`http://localhost:5000/product-count`)
+            const { data } = await axios(`https://ecommerce-server-rust.vercel.app//product-count`)
 
             setCount(data.count)
         }
